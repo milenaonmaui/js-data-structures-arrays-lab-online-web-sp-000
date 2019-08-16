@@ -1,4 +1,6 @@
 // Write your solution here!
 let drivers = ["Milo", "Otis", "Garfield"]
 
-def 
+def destructivelyAppendDriver(name) {
+  return drivers.push(name)
+}
